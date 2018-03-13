@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>🍣 QRコードを作るやつ 🍣</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <link rel="icon" type="image/x-icon" href="dist/favicon.ico">
+</head>
+<body>
+  <div id="container" class="siimple-content siimple-content--large" align="center">
+    <div id="app-title" class="siimple-h2">
+      <div v-text="app_title"></div>
+    </div>
+
+    <div id="input-text-area" class="siimple-h5">
+      <input id="input-text" type="text" @keydown.enter="create_qrcode_image" :placeholder="place_holder_text" :size="text_area_size" v-model="input_text">
+      <div id="repeat-input-text">{{ input_text }}</div>
+    </div>
+
+    <input id="create-qrcode-image" class="siimple-btn siimple-btn--blue" type="button" @click="create_qrcode_image" :value="value">
+
+    <hr>
+
+    <div id="qrcode-shown-area">
+      <div id="qrcode-is-below" class="siimple-h3">
+        <div v-text="qrcode_is_below"></div>
+      </div>
+      <div id="qrcode-image-area" class="siimple-h4"></div>
+      <div id="qrcode-is-above" class="siimple-h3">
+        <div v-text="qrcode_is_above"></div>
+      </div>
+    </div>
+
+    <hr>
+
+    <footer>
+      <span id="developer">Developed by Osamu Takiya :)</span>
+    </footer>
+  </div>
+
+  <script src="dist/vue.min.js"></script>
+  <script src="dist/qrcode.min.js"></script>
+  <script src="dist/bundle.js"></script>
+</body>
+</html>
