@@ -2,6 +2,9 @@
 - Create QR code
 - powered by Vue.js
 
+# Screenshot
+![screenshot](screenshot.gif "screenshot")
+
 # Preparation
 ```bash
 $ yarn
