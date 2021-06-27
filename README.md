@@ -3,7 +3,7 @@
 - powered by Vue.js
 
 # Built Page
-- https://corselia.github.io/create-qrcode-by-vue/
+- https://nikukyugamer.github.io/create-qrcode-by-vue/
 
 # Screenshot
 ![screenshot](screenshot.gif "screenshot")
