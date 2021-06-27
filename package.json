@@ -12,6 +12,8 @@
     "webpack-cli": "4.5.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
     "trim-newlines": "3.0.1"
   }
 }
