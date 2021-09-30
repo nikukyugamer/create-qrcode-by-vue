@@ -9,7 +9,7 @@
     "sass-loader": "12.1.0",
     "style-loader": "3.3.0",
     "trim-newlines": "4.0.2",
-    "webpack": "5.53.0",
+    "webpack": "5.55.1",
     "webpack-cli": "4.8.0"
   }
 }
