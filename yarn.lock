@@ -21,7 +21,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:>=7.15.8":
+"@babel/core@npm:7.16.0":
   version: 7.16.0
   resolution: "@babel/core@npm:7.16.0"
   dependencies:
@@ -1071,7 +1071,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:>=7.15.8":
+"@babel/preset-env@npm:7.16.0":
   version: 7.16.0
   resolution: "@babel/preset-env@npm:7.16.0"
   dependencies:
@@ -1706,7 +1706,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-loader@npm:>=8.2.2":
+"babel-loader@npm:8.2.3":
   version: 8.2.3
   resolution: "babel-loader@npm:8.2.3"
   dependencies:
@@ -2074,7 +2074,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-loader@npm:>=6.4.0":
+"css-loader@npm:6.5.1":
   version: 6.5.1
   resolution: "css-loader@npm:6.5.1"
   dependencies:
@@ -2941,7 +2941,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:>=4.1.0":
+"js-yaml@npm:4.1.0":
   version: 4.1.0
   resolution: "js-yaml@npm:4.1.0"
   dependencies:
@@ -3430,7 +3430,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-sass@npm:>=6.0.1":
+"node-sass@npm:6.0.1":
   version: 6.0.1
   resolution: "node-sass@npm:6.0.1"
   dependencies:
@@ -4036,17 +4036,17 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@babel/core": ">=7.15.8"
-    "@babel/preset-env": ">=7.15.8"
-    babel-loader: ">=8.2.2"
-    css-loader: ">=6.4.0"
-    js-yaml: ">=4.1.0"
-    node-sass: ">=6.0.1"
-    sass-loader: ">=12.2.0"
-    style-loader: ">=3.3.0"
-    trim-newlines: ">=4.0.2"
-    webpack: ">=5.58.2"
-    webpack-cli: ">=4.9.0"
+    "@babel/core": 7.16.0
+    "@babel/preset-env": 7.16.0
+    babel-loader: 8.2.3
+    css-loader: 6.5.1
+    js-yaml: 4.1.0
+    node-sass: 6.0.1
+    sass-loader: 12.3.0
+    style-loader: 3.3.1
+    trim-newlines: 4.0.2
+    webpack: 5.63.0
+    webpack-cli: 4.9.1
   languageName: unknown
   linkType: soft
 
@@ -4085,7 +4085,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass-loader@npm:>=12.2.0":
+"sass-loader@npm:12.3.0":
   version: 12.3.0
   resolution: "sass-loader@npm:12.3.0"
   dependencies:
@@ -4458,7 +4458,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"style-loader@npm:>=3.3.0":
+"style-loader@npm:3.3.1":
   version: 3.3.1
   resolution: "style-loader@npm:3.3.1"
   peerDependencies:
@@ -4565,7 +4565,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"trim-newlines@npm:>=4.0.2":
+"trim-newlines@npm:4.0.2":
   version: 4.0.2
   resolution: "trim-newlines@npm:4.0.2"
   checksum: 1eef206eb77361856dff0b827e5811baf64574bb21e81b7ad643fe321c5c19b0a452dd83e9afc31206993fcff9bb90a379925d7b5915f887de1ca7da5b57933a
@@ -4730,7 +4730,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-cli@npm:>=4.9.0":
+"webpack-cli@npm:4.9.1":
   version: 4.9.1
   resolution: "webpack-cli@npm:4.9.1"
   dependencies:
@@ -4780,7 +4780,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:>=5.58.2":
+"webpack@npm:5.63.0":
   version: 5.63.0
   resolution: "webpack@npm:5.63.0"
   dependencies:
