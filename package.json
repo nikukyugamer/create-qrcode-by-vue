@@ -1,16 +1,19 @@
 {
+  "name": "create-qrcode-by-vue",
+  "version": "1.0.0",
   "devDependencies": {
-    "@babel/core": "7.16.0",
-    "@babel/preset-env": "7.16.4",
+    "@babel/core": "7.16.5",
+    "@babel/preset-env": "7.16.5",
     "babel-loader": "8.2.3",
     "css-loader": "6.5.1",
     "js-yaml": "4.1.0",
     "node-sass": "7.0.0",
-    "sass-loader": "12.3.0",
+    "sass-loader": "12.4.0",
     "style-loader": "3.3.1",
     "trim-newlines": "4.0.2",
-    "webpack": "5.64.4",
+    "webpack": "5.65.0",
     "webpack-cli": "4.9.1"
   },
-  "packageManager": "yarn@3.1.1"
+  "packageManager": "yarn@3.1.1",
+  "private": true
 }
